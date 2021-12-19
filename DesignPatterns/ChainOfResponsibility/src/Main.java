@@ -5,12 +5,12 @@ public class Main {
         VicePresident vicePresident = new VicePresident();
         President president = new President();
 
-        manager.SetSuccessor(vicePresident);
-        vicePresident.SetSuccessor(president);
+        manager.setSuccessor(vicePresident);
+        vicePresident.setSuccessor(president);
 
         Expense expense = new Expense();
         expense.setDetail("Reklam verme");
         expense.setAmount(6000);
-        manager.HandleExpense(expense);
+        manager.handleExpense(expense);
     }
 }

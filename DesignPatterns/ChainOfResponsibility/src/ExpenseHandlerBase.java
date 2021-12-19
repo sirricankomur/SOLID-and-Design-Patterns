@@ -1,9 +1,9 @@
 public abstract class ExpenseHandlerBase {
     protected ExpenseHandlerBase Successor;
 
-    public abstract void HandleExpense(Expense expense);
+    public abstract void handleExpense(Expense expense);
 
-    public void SetSuccessor(ExpenseHandlerBase successor) {
+    public void setSuccessor(ExpenseHandlerBase successor) {
         Successor = successor;
     }
 }
